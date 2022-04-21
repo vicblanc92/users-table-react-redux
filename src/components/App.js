@@ -2,7 +2,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { apiRequestStart, apiRequestSucced, updateFirstUser } from '../actions';
 import { Card, Table } from 'antd';
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css';
 
 const App = () => {
   const dispatch = useDispatch();
